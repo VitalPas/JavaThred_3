@@ -146,7 +146,5 @@ public class Homework1 {
         incomeAfterTaxes = incomeBeforeTaxes - taxes;
 
         System.out.println(incomeAfterTaxes);
-
-
     }
 }
