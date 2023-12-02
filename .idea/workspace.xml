@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec8949fa-c08f-423e-9ea1-2e048e229ff4" name="Changes" comment="start project">
+    <list default="true" id="ec8949fa-c08f-423e-9ea1-2e048e229ff4" name="Changes" comment="Homework1">
       <change afterPath="$PROJECT_DIR$/src/ord/example/CodeStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/Homework1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/second/Homework2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/Lesson1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/Lesson2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/Lesson3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson4/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson4/Lesson4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Runner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Tableau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Yakubovich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/player/PlayerAnswer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ord/example/homework/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/homework/Homework1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/valha/IdeaProjects/JavaThred_3/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/valha/IdeaProjects/JavaThred_3/src/ord/example&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src\ord\example" />
+      <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src\ord\example\lessons" />
+      <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src\ord\example\homework" />
       <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework1">
+  <component name="RunManager" selected="Java Scratch.Scratch">
     <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ord.example.homework.Homework1" />
       <module name="JavaThred_3" />
@@ -95,11 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Homework1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +137,17 @@
       <workItem from="1700562154324" duration="507000" />
       <workItem from="1700652349240" duration="10459000" />
       <workItem from="1700737143228" duration="5135000" />
-      <workItem from="1700823481416" duration="7001000" />
+      <workItem from="1700823481416" duration="7509000" />
+      <workItem from="1700831192060" duration="68000" />
+      <workItem from="1700890955779" duration="9563000" />
+      <workItem from="1700978281952" duration="81000" />
+      <workItem from="1700982012546" duration="3592000" />
+      <workItem from="1700989041091" duration="625000" />
+      <workItem from="1701098226352" duration="297000" />
+      <workItem from="1701169763503" duration="10466000" />
+      <workItem from="1701343056666" duration="9140000" />
+      <workItem from="1701427467009" duration="180000" />
+      <workItem from="1701427860534" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -124,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700562578148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework1">
+      <option name="closed" value="true" />
+      <created>1700830651411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700830651411</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework1">
+      <option name="closed" value="true" />
+      <created>1700831230206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700831230206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start project" />
-    <option name="LAST_COMMIT_MESSAGE" value="start project" />
+    <MESSAGE value="Homework1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework1" />
   </component>
 </project>

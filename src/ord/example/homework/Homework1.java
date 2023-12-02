@@ -138,7 +138,7 @@ public class Homework1 {
         if (incomeBeforeTaxes >= 2_000_000) {
             taxes = 1_000_000 * 0.08 + 1_000_000 * 0.1 + (incomeBeforeTaxes - 2_000_000) * 0.13;
         } else if (incomeBeforeTaxes > 1_000_000 && incomeBeforeTaxes < 2_000_000) {
-            taxes = 1_000_000 * 0.08 + (incomeBeforeTaxes - 1_000_000) * 0.1;
+            taxes = 1_000_000 * 0.08 + (incomeBeforeTaxes - 1_000_000) * 0.10;
         } else {
             taxes = incomeBeforeTaxes * 0.08;
         }
@@ -146,5 +146,6 @@ public class Homework1 {
         incomeAfterTaxes = incomeBeforeTaxes - taxes;
 
         System.out.println(incomeAfterTaxes);
+        System.out.println(taxes);
     }
 }
