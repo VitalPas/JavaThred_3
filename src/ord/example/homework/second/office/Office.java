@@ -11,7 +11,6 @@ public class Office {
         this.manager = manager;
         this.secretary = secretary;
         this.security = security;
-
     }
 
     public void workDay() {
