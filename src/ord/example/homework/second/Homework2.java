@@ -6,8 +6,8 @@ import java.util.Random;
 public class Homework2 {
     public static void main(String[] args) {
         ex1();
-        ex2();
-        ex3();
+        //ex2();
+        //ex3();
     }
 
     public static void ex1() {
@@ -33,18 +33,12 @@ public class Homework2 {
             for (int j = 0; j < arrayOfNumbers[i].length; j++) {
                 if (j == i) {
                     leftUpToRightDownSum += arrayOfNumbers[i][j];
-                }
-            }
-        }
-        System.out.println(leftUpToRightDownSum);
-
-        for (int i = arrayOfNumbers.length - 1; i >= 0; i--) {
-            for (int j = 0; j < arrayOfNumbers[i].length; j++) {
-                if (j + i == 9) {
+                }else if (j + i == arrayOfNumbers.length-1) {
                     leftDownToRightUpSum += arrayOfNumbers[i][j];
                 }
             }
         }
+        System.out.println(leftUpToRightDownSum);
         System.out.println(leftDownToRightUpSum);
     }
 
