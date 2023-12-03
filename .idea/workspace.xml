@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec8949fa-c08f-423e-9ea1-2e048e229ff4" name="Changes" comment="Homework2">
-      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Tableau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Yakubovich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/player/PlayerAnswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ec8949fa-c08f-423e-9ea1-2e048e229ff4" name="Changes" comment="Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +57,7 @@
       <recent name="ord.example.homework.second" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework1">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ord.example.homework.Homework1" />
       <module name="JavaThred_3" />
@@ -85,6 +77,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ord.example.homework.second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaacadmey.wonder_field.Runner" />
+      <module name="JavaThred_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaacadmey.wonder_field.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,20 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Homework1" />
         <item itemvalue="Application.Homework2" />
         <item itemvalue="Application.ord.example.homework.second.office.Runner" />
         <item itemvalue="Application.ord.example.homework.second.shop.Runner" />
-        <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +159,7 @@
       <workItem from="1701580427235" duration="180000" />
       <workItem from="1701594049134" duration="2598000" />
       <workItem from="1701599392322" duration="38000" />
+      <workItem from="1701606454138" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -226,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701580589479</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Project">
+      <option name="closed" value="true" />
+      <created>1701606542838</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701606542838</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="start project" />
     <MESSAGE value="Homework1" />
     <MESSAGE value="Homework2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework2" />
+    <MESSAGE value="Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project" />
   </component>
 </project>

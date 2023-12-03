@@ -25,11 +25,9 @@ public class Runner {
         Player player2 = new Player("Виталий", "Уфа");
         Player player3 = new Player("Оля", "Москва");
 
-        //player.move();
-        Player[] players = new Player[]{player,player2,player3};
+        player.move();
+        Player[] players = new Player[]{player, player2, player3};
 
-        Yakubovich.invitePlayers(players,3);
-
-
+        Yakubovich.invitePlayers(players, 3);
     }
 }
