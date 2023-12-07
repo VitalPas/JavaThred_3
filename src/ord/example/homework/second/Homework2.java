@@ -29,14 +29,29 @@ public class Homework2 {
         int leftUpToRightDownSum = 0;
         //С левого нижнего угла к верхнему правому
         int leftDownToRightUpSum = 0;
+//        for (int i = 0; i < arrayOfNumbers.length; i++) {
+//            for (int j = 0; j < arrayOfNumbers[i].length; j++) {
+//                if (j == i) {
+//                    leftUpToRightDownSum += arrayOfNumbers[i][j];
+//                } else if (j + i == arrayOfNumbers.length - 1) {
+//                    leftDownToRightUpSum += arrayOfNumbers[i][j];
+//                }
+//            }
+//        }
+        int m = arrayOfNumbers.length;
+        int n = arrayOfNumbers[0].length;
+        int row;
+        int column;
         for (int i = 0; i < arrayOfNumbers.length; i++) {
-            for (int j = 0; j < arrayOfNumbers[i].length; j++) {
-                if (j == i) {
-                    leftUpToRightDownSum += arrayOfNumbers[i][j];
-                }else if (j + i == arrayOfNumbers.length-1) {
-                    leftDownToRightUpSum += arrayOfNumbers[i][j];
-                }
-            }
+            row = i % m;
+            column = i % m;
+//            if (row == column) {
+//                leftUpToRightDownSum += arrayOfNumbers[row][column];
+//            } else if (row + column == arrayOfNumbers.length - 1) {
+//                leftDownToRightUpSum += arrayOfNumbers[row][column];
+//            }
+            leftUpToRightDownSum += arrayOfNumbers[row][row];
+            leftDownToRightUpSum += arrayOfNumbers[row][arrayOfNumbers[i].length - row - 1];
         }
         System.out.println(leftUpToRightDownSum);
         System.out.println(leftDownToRightUpSum);

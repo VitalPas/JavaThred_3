@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec8949fa-c08f-423e-9ea1-2e048e229ff4" name="Changes" comment="Project" />
+    <list default="true" id="ec8949fa-c08f-423e-9ea1-2e048e229ff4" name="Changes" comment="Project">
+      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/player/PlayerAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaThred_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaThred_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ord/example/homework/second/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/homework/second/Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ord/example/homework/second/shop/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/homework/second/shop/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ord/example/homework/second/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/homework/second/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ord/example/homework/second/shop/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/homework/second/shop/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ord/example/lessons/Lesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/lessons/Lesson2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Tableau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Tableau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/Yakubovich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Yakubovich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonder_field/player/PlayerAnswer.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +48,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/valha/IdeaProjects/JavaThred_3/src/ord/example/homework/second&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/valha/Downloads/Telegram Desktop/google_checks.xml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -85,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.javaacadmey.wonder_field.Runner" />
+      <option name="MAIN_CLASS_NAME" value="org.javaacadmey.wonderfield.Runner" />
       <module name="JavaThred_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.javaacadmey.wonder_field.*" />
+          <option name="PATTERN" value="org.javaacadmey.wonderfield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,8 +143,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Homework1" />
         <item itemvalue="Application.Homework2" />
+        <item itemvalue="Application.Homework1" />
         <item itemvalue="Application.ord.example.homework.second.office.Runner" />
         <item itemvalue="Application.ord.example.homework.second.shop.Runner" />
       </list>
@@ -160,6 +177,11 @@
       <workItem from="1701594049134" duration="2598000" />
       <workItem from="1701599392322" duration="38000" />
       <workItem from="1701606454138" duration="97000" />
+      <workItem from="1701606758050" duration="406000" />
+      <workItem from="1701779829693" duration="4187000" />
+      <workItem from="1701859697286" duration="132000" />
+      <workItem from="1701859838085" duration="9133000" />
+      <workItem from="1701959503346" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -233,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701606542838</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Project">
+      <option name="closed" value="true" />
+      <created>1701606967875</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701606967875</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Project">
+      <option name="closed" value="true" />
+      <created>1701607070229</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701607070229</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,5 +283,9 @@
     <MESSAGE value="Homework2" />
     <MESSAGE value="Project" />
     <option name="LAST_COMMIT_MESSAGE" value="Project" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

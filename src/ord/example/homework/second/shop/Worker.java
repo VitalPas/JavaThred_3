@@ -13,7 +13,7 @@ public class Worker {
         this.items = items;
     }
 
-    public void displayItem() {
+    public void displayItems() {
         for (Item item : items) {
             System.out.println(name + ": " + "смотрите какая у меня вещь - " + item.nameProduct);
         }
@@ -24,7 +24,7 @@ public class Worker {
         for (Item items : items) {
             itemsWorker.append(items.nameProduct).append(", ");
         }
-        itemsWorker.deleteCharAt(itemsWorker.length()-2);
+        itemsWorker.deleteCharAt(itemsWorker.length() - 2);
         return itemsWorker.toString();
     }
 }
