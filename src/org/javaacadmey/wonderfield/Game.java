@@ -1,5 +1,7 @@
 package org.javaacadmey.wonderfield;
 
+import org.javaacadmey.wonderfield.player.Player;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -13,6 +15,7 @@ public class Game {
     private String[] question;
     private String[] answer;
     Yakubovich yakubovich;
+    Player[] winners;
 
     public String[] getQuestion() {
         return question;
@@ -58,6 +61,24 @@ public class Game {
             throw new RuntimeException(e);
         }
         System.out.print("\n".repeat(50));
+    }
+
+    public Player[] createPlayers() {
+        Player[] players = new Player[3];
+        int numberPlayer = 1;
+        for (int i = 0; i < 3; i++) {
+            String playerSay;
+            int comma;
+            System.out.println("Игрок №" + numberPlayer
+                    + " представьтесь: имя,город. Например: Иван,Москва.");
+            numberPlayer++;
+            players[i] = new Player();
+            playerSay = scanner.nextLine();
+            comma = playerSay.indexOf(",");
+            players[i].setName(playerSay.substring(0, comma));
+            players[i].setCity(playerSay.substring(comma + 1));
+        }
+        return players;
     }
 
     public void easyStart() {

@@ -28,6 +28,17 @@ public class Player {
         this.city = city;
     }
 
+    public Player() {
+    }
+
+    @Override
+    public String toString() {
+        return "Player{"
+                + "name='" + name + '\''
+                + ", city='" + city + '\''
+                + '}';
+    }
+
     public String sayLetter() {
         String letter;
         System.out.println("\nВведите букву русского алфавита");
