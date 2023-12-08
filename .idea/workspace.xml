@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Yakubovich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Yakubovich.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/player/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +172,7 @@
       <workItem from="1701859697286" duration="132000" />
       <workItem from="1701859838085" duration="9133000" />
       <workItem from="1701959503346" duration="3348000" />
-      <workItem from="1702034222809" duration="1506000" />
+      <workItem from="1702034222809" duration="4984000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -269,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701960778333</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Project without static">
+      <option name="closed" value="true" />
+      <created>1702035888392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702035888392</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

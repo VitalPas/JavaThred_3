@@ -1,8 +1,7 @@
 package org.javaacadmey.wonderfield;
 
-import org.javaacadmey.wonderfield.player.Player;
-
 import java.util.Arrays;
+import org.javaacadmey.wonderfield.player.Player;
 
 public class Runner {
 
@@ -11,8 +10,6 @@ public class Runner {
         Game game = new Game();
         //game.init();
         game.easyStart();
-
-
 
         game.tableau.initTableau(game.getAnswer()[0]);
 
@@ -26,16 +23,17 @@ public class Runner {
 
         game.tableau.showTableau();
 
-        Player[] players = game.createPlayers();
-
+        //Player[] players = game.createPlayers();
+        Player[] players = game.easyCreatePlayers();
         System.out.println(Arrays.toString(players));
-//        player.move();
-//        System.out.println(player.playerAnswer);
-//        game.yakubovich.startShow();
-//
-//        game.yakubovich.askQuestion(game, 1);
-//        game.yakubovich.checkAnswer(player.playerAnswer,
-//                game.getAnswer()[0], game.tableau);
+        String[] name = game.getPlayerName(players);
+        System.out.println(Arrays.toString(name));
+        //        player.move();
+        //        System.out.println(player.playerAnswer);
+        //        game.yakubovich.startShow();
+        //        game.yakubovich.askQuestion(game, 1);
+        //        game.yakubovich.checkAnswer(player.playerAnswer,
+        //        game.getAnswer()[0], game.tableau);
 
     }
 }

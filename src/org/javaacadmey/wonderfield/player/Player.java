@@ -3,6 +3,11 @@ package org.javaacadmey.wonderfield.player;
 import org.javaacadmey.wonderfield.Game;
 
 public class Player {
+    public static final String WRONG_LETTER_SCANNER = "Некорректное значение, введите 'б' или 'с'";
+    public static final String ANSWER_CHECK = "Если хотите букву нажмите 'б' и Enter, "
+            + "если хотите слово нажмите 'c' и Enter";
+    public static final String EXCEPTION_RUSSIAN_LETTER = "Ошибка! это не русская буква, "
+            + "введите русскую букву";
     private String name;
     private String city;
     public PlayerAnswer playerAnswer;
@@ -45,7 +50,7 @@ public class Player {
         while (true) {
             letter = Game.scanner.nextLine();
             if (!letter.matches("[а-яА-Я]+")) {
-                System.out.println("Ошибка! Это не русскакя буква, введите русскую букву");
+                System.out.println(EXCEPTION_RUSSIAN_LETTER);
                 continue;
             }
             System.out.println("Игрок " + getName() + ": буква " + "\""
@@ -65,8 +70,7 @@ public class Player {
     public PlayerAnswer move() {
         playerAnswer = new PlayerAnswer();
         System.out.println("Ход игрока " + name + ", " + city);
-        System.out.println("Если хотите букву нажмите \"б\" и Enter, +"
-                + "если хотите слово нажмите \"с\" и Enter");
+        System.out.println(ANSWER_CHECK);
         while (true) {
             playerAnswer.setTypeAnswer(Game.scanner.nextLine());
             if (playerAnswer.getTypeAnswer().equals("б")) {
@@ -76,7 +80,7 @@ public class Player {
                 playerAnswer.setAnswer(sayWord());
                 return playerAnswer;
             } else {
-                System.out.println("Некорректное значение, введите 'б' или 'с'");
+                System.out.println(WRONG_LETTER_SCANNER);
             }
         }
     }

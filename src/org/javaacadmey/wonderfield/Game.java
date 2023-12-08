@@ -1,9 +1,8 @@
 package org.javaacadmey.wonderfield;
 
-import org.javaacadmey.wonderfield.player.Player;
-
 import java.util.Arrays;
 import java.util.Scanner;
+import org.javaacadmey.wonderfield.player.Player;
 
 public class Game {
     public static final int COUNT_PLAYER = 3;
@@ -44,8 +43,8 @@ public class Game {
     public void init() {
         tableau = new Tableau();
         yakubovich = new Yakubovich();
-        String[] question = new String[COUNT_ALL_ROUND];
-        String[] answer = new String[COUNT_ALL_ROUND];
+        this.question = new String[COUNT_ALL_ROUND];
+        this.answer = new String[COUNT_ALL_ROUND];
 
         System.out.println("Запуск игры \"Поле Чудес\"");
         for (int i = 0; i < COUNT_ALL_ROUND; i++) {
@@ -81,6 +80,23 @@ public class Game {
         return players;
     }
 
+    public String[] getPlayerName(Player[] players) {
+        String[] names = new String[3];
+        for (int i = 0; i < players.length; i++) {
+            names[i] = players[i].getName();
+        }
+        return names;
+    }
+
+    public boolean checkTableau(Tableau tableau) {
+        return !tableau.containsUnknownLetters();
+    }
+
+    public boolean playerMove(String question, Player player) {
+
+        return true;
+    }
+
     public void easyStart() {
         tableau = new Tableau();
         yakubovich = new Yakubovich();
@@ -96,5 +112,12 @@ public class Game {
         answer[3] = "СТАЛЬ";
         System.out.println(Arrays.toString(question));
         System.out.println(Arrays.toString(answer));
+    }
+
+    public Player[] easyCreatePlayers() {
+        Player player = new Player("Виталий", "Новосибирск");
+        Player player2 = new Player("Оля", "Москва");
+        Player player3 = new Player("Тимур", "Владивосток");
+        return new Player[] {player, player2, player3};
     }
 }

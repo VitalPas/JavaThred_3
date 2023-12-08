@@ -9,6 +9,9 @@ public class Yakubovich {
             + "уважаемые дамы и господа! Пятница! В эфире капитал-шоу «Поле чудес»!";
     public static final String END_SHOW_PHRASE = "Якубович: Мы прощаемся с вами ровно на одну "
             + "неделю! Здоровья вам, до встречи!";
+    public static final String SPACE = "__________________________________";
+    public static final String WRONG_LETTER = "Якубович: Нет такой буквы! "
+            + "Следующий игрок, крутите барабан!";
 
     public void startShow() {
         System.out.println(START_SHOW_PHRASE);
@@ -58,8 +61,8 @@ public class Yakubovich {
                 tableau.openLetter(playerAnswer.getAnswer());
                 tableau.showTableau();
             } else {
-                System.out.println("Якубович: Нет такой буквы! Следующий игрок, крутите барабан!");
-                System.out.println("__________________________________");
+                System.out.println(WRONG_LETTER);
+                System.out.println(SPACE);
             }
         } else {
             if (correctAnswer.equals(playerAnswer.getAnswer())) {
@@ -69,7 +72,7 @@ public class Yakubovich {
                 tableau.showTableau();
             } else {
                 System.out.println("Якубович: Неверно! Следующий игрок!");
-                System.out.println("__________________________________");
+                System.out.println(SPACE);
             }
         }
     }
