@@ -92,11 +92,6 @@ public class Game {
         return !tableau.containsUnknownLetters();
     }
 
-    public boolean playerMove(String question, Player player) {
-
-        return true;
-    }
-
     public void easyStart() {
         tableau = new Tableau();
         yakubovich = new Yakubovich();
