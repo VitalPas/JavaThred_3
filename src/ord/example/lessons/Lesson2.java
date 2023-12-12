@@ -46,6 +46,8 @@ public class Lesson2 {
             System.out.println("Открываю шампанское");
         }
 
+        if (true) System.out.println();
+
         //Логическое "Не" - переворачивает значение
         boolean isGoToSchool = !true;
         System.out.println(isGoToSchool);

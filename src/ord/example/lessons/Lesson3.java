@@ -10,11 +10,6 @@ public class Lesson3 {
         //Ссылочный тип данных
         String text = null;
 
-        //Список возрастов для массива
-        int age1 = 18;
-        int age2 = 20;
-        int age3 = 25;
-
         //Создание массива с размерностью 3
         System.out.println("Создание массива");
         int[] numbers = new int[3];
@@ -26,6 +21,11 @@ public class Lesson3 {
         //double,float - 0.00
         //Ссылочные типы
         //null
+
+        //Список возрастов для массива
+        int age1 = 18;
+        int age2 = 20;
+        int age3 = 25;
 
         //Запись конкретного элемента в массив
         numbers[0] = age1;

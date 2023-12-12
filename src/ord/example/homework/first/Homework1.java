@@ -1,4 +1,4 @@
-package ord.example.homework;
+package ord.example.homework.first;
 
 public class Homework1 {
     public static void main(String[] args) {
