@@ -16,18 +16,18 @@ public class Game {
     private Yakubovich yakubovich;
     private Player[] winners;
 
+    public Game() {
+        this.winners = new Player[COUNT_PLAYER];
+        this.tableau = new Tableau();
+        this.yakubovich = new Yakubovich();
+    }
+
     public Yakubovich getYakubovich() {
         return yakubovich;
     }
 
     public QuestionAnswer[] getQuestion() {
         return questionAnswer;
-    }
-
-    public Game() {
-        this.winners = new Player[COUNT_PLAYER];
-        this.tableau = new Tableau();
-        this.yakubovich = new Yakubovich();
     }
 
     public void init() {

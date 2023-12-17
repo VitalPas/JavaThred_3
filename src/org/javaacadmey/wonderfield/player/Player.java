@@ -12,6 +12,14 @@ public class Player {
     private String city;
     private PlayerAnswer playerAnswer;
 
+    public Player(String name, String city) {
+        this.name = name;
+        this.city = city;
+    }
+
+    public Player() {
+    }
+
     public String getName() {
         return name;
     }
@@ -26,14 +34,6 @@ public class Player {
 
     public void setCity(String city) {
         this.city = city;
-    }
-
-    public Player(String name, String city) {
-        this.name = name;
-        this.city = city;
-    }
-
-    public Player() {
     }
 
     @Override

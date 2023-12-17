@@ -4,6 +4,9 @@ public class QuestionAnswer {
     private String question;
     private String answer;
 
+    public QuestionAnswer() {
+    }
+
     public String getQuestion() {
         return question;
     }
@@ -18,9 +21,6 @@ public class QuestionAnswer {
 
     public void setAnswer(String answer) {
         this.answer = answer;
-    }
-
-    public QuestionAnswer() {
     }
 
     @Override

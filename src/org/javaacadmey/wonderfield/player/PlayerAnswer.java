@@ -4,6 +4,9 @@ public class PlayerAnswer {
     private String typeAnswer;
     private String answer;
 
+    public PlayerAnswer() {
+    }
+
     public String getTypeAnswer() {
         return typeAnswer;
     }
@@ -18,9 +21,6 @@ public class PlayerAnswer {
 
     public void setAnswer(String answer) {
         this.answer = answer;
-    }
-
-    public PlayerAnswer() {
     }
 
     @Override
