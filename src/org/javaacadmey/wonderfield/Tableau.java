@@ -4,27 +4,6 @@ public class Tableau {
     private String correctAnswer;
     private String[] lettersOnTableau;
 
-    public String getCorrectAnswer() {
-        return correctAnswer;
-    }
-
-    public void setCorrectAnswer(String correctAnswer) {
-        this.correctAnswer = correctAnswer;
-    }
-
-    public String[] getLettersOnTableau() {
-        return lettersOnTableau;
-    }
-
-    public void setLettersOnTableau(String[] lettersOnTableau) {
-        this.lettersOnTableau = lettersOnTableau;
-    }
-
-    public Tableau(String correctAnswer, String[] lettersOnTableau) {
-        this.correctAnswer = correctAnswer;
-        this.lettersOnTableau = lettersOnTableau;
-    }
-
     public Tableau() {
     }
 
@@ -60,15 +39,12 @@ public class Tableau {
     }
 
     public boolean containsUnknownLetters() {
-        boolean result = true;
         for (String letters : lettersOnTableau) {
             if (letters.equals("_")) {
-                result = true;
-            } else {
-                result = false;
+                return true;
             }
         }
-        return result;
+        return false;
     }
 
     private void notNullCheck() {

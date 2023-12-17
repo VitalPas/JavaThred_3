@@ -10,7 +10,7 @@ public class Player {
             + "введите русскую букву";
     private String name;
     private String city;
-    public PlayerAnswer playerAnswer;
+    private PlayerAnswer playerAnswer;
 
     public String getName() {
         return name;

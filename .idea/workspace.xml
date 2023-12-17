@@ -5,51 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8949fa-c08f-423e-9ea1-2e048e229ff4" name="Changes" comment="Homework3">
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/first/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/first/TaxRates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/Homework3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex1/Birch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex1/ConiferousTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex1/DeciduousTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex1/Pine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex1/Spruce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex1/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex2/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex2/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex2/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex2/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex2/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex2/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex3/Pyramid1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex3/Pyramid2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex3/Pyramid3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex4/LotteryTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex5/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/third/ex5/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson5/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson5/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson5/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson5/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson5/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/Lesson6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example1/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example1/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example2/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example3/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example4/Alive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example4/Gorilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example4/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson6/example4/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/Homework4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex1/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex1/CarWash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex1/PassengerCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex2/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex2/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex2/FlyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex2/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex3/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex3/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex3/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex3/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/homework/four/ex3/SoundMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex1/Alive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex2/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex2/CheapCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex2/ExpensiveCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex2/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex2/PhoneWithCheapCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex2/PhoneWithExpensiveCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/Drive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/FlyableDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/Mechanics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/Runner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex3/Something.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex4/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex4/IvanDyrak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex4/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex4/Swan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson7/ex4/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson8/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson8/Lesson8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson8/ex1/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson8/ex1/AxeBrokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson8/ex1/Firm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson8/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson8/ex1/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson8/ex1/WorkerWithoutAxeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/singleton/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ord/example/lessons/singleton/Sun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/QuestionAnswer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ord/example/homework/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/homework/first/Homework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ord/example/lessons/Lesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/lessons/Lesson2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ord/example/lessons/Lesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/lessons/Lesson3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ord/example/lessons/lesson4/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ord/example/lessons/lesson4/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Tableau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Tableau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Yakubovich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/Yakubovich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/player/PlayerAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacadmey/wonderfield/player/PlayerAnswer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -93,24 +106,29 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ord.example.homework.four.ex3" />
+      <recent name="ord.example.homework.four.ex2" />
+      <recent name="ord.example.homework.four.ex1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src\ord\example\homework" />
+      <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src\ord\example\lessons" />
       <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src\ord\example" />
       <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src\ord\example\homework\second" />
-      <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src\ord\example\lessons" />
       <recent name="C:\Users\valha\IdeaProjects\JavaThred_3\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ord.example.homework.second" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework3">
-    <configuration name="Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ord.example.homework.second.Homework2" />
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ord.example.homework.third.Homework3" />
       <module name="JavaThred_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ord.example.homework.second.*" />
+          <option name="PATTERN" value="ord.example.homework.third.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ord.example.homework.third.Homework3" />
+    <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ord.example.homework.four.Homework4" />
       <module name="JavaThred_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ord.example.homework.third.*" />
+          <option name="PATTERN" value="ord.example.homework.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaacadmey.wonderfield.Runner" />
+      <module name="JavaThred_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaacadmey.wonderfield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,39 +175,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ord.example.homework.second.shop.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ord.example.homework.second.shop.Runner" />
-      <module name="JavaThred_3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ord.example.homework.second.shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ord.example.lessons.lesson6.example4.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ord.example.lessons.lesson6.example4.Runner" />
-      <module name="JavaThred_3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ord.example.lessons.lesson6.example4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Application.Homework4" />
         <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.ord.example.homework.second.office.Runner" />
-        <item itemvalue="Application.ord.example.homework.second.shop.Runner" />
-        <item itemvalue="Application.Homework2" />
-        <item itemvalue="Application.ord.example.lessons.lesson6.example4.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +230,12 @@
       <workItem from="1702097573010" duration="8818000" />
       <workItem from="1702198582374" duration="4274000" />
       <workItem from="1702294926806" duration="11167000" />
-      <workItem from="1702380151694" duration="4739000" />
+      <workItem from="1702380151694" duration="5030000" />
+      <workItem from="1702464338252" duration="12299000" />
+      <workItem from="1702637927376" duration="198000" />
+      <workItem from="1702638137789" duration="10000" />
+      <workItem from="1702695007000" duration="13265000" />
+      <workItem from="1702784808813" duration="11903000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -340,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702039984972</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Homework3">
+      <option name="closed" value="true" />
+      <created>1702385661735</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702385661735</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

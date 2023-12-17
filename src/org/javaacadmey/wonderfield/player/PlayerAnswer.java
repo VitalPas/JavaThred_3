@@ -20,11 +20,6 @@ public class PlayerAnswer {
         this.answer = answer;
     }
 
-    public PlayerAnswer(String typeAnswer, String answer) {
-        this.typeAnswer = typeAnswer;
-        this.answer = answer;
-    }
-
     public PlayerAnswer() {
     }
 
