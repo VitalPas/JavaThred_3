@@ -74,7 +74,6 @@ public class Homework4 {
             try {
                 flyable.fly();
             } catch (FlyException e) {
-                e.printStackTrace();
                 System.out.println(e.getMessage());
             }
         }
@@ -95,7 +94,7 @@ public class Homework4 {
         Bird bird = new Bird();
         SoundMaker[] soundMakers = new SoundMaker[] {human, builder, driver, bird};
         for (SoundMaker soundMaker : soundMakers) {
-            soundMaker.makeSound();
+            System.out.println(soundMaker.makeSound());
         }
     }
 

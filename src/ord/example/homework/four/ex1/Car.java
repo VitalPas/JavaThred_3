@@ -13,7 +13,7 @@ public abstract class Car {
         this.height = height;
     }
 
-    public boolean isClear() {
+    public boolean getIsClear() {
         return isClear;
     }
 

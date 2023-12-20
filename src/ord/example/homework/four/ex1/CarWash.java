@@ -4,7 +4,7 @@ public class CarWash {
 
     public static int clearCar(Car car) {
         int price = 0;
-        if (!car.isClear()) {
+        if (!car.getIsClear()) {
             price = wash(car);
             car.setClear(true);
         }
@@ -14,7 +14,7 @@ public class CarWash {
     public static int clearCars(Car[] cars) {
         int price = 0;
         for (Car car : cars) {
-            if (!car.isClear()) {
+            if (!car.getIsClear()) {
                 price += wash(car);
                 car.setClear(true);
             }
