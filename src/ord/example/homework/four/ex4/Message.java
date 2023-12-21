@@ -3,7 +3,6 @@ package ord.example.homework.four.ex4;
 import java.util.Date;
 
 public class Message {
-
     private final User sender;
     private final User receiver;
     private boolean isIncoming;
@@ -35,20 +34,5 @@ public class Message {
 
     public String getTextMessage() {
         return textMessage;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    @Override
-    public String toString() {
-        return "Message{"
-                + "FROM:" + sender
-                + ", TO" + receiver
-                + ", ON:" + date
-                + ", isIncoming:" + isIncoming
-                + ", Текст сообщения'" + textMessage + '\''
-                + '}';
     }
 }

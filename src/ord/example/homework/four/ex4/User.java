@@ -1,7 +1,5 @@
 package ord.example.homework.four.ex4;
 
-import java.util.Arrays;
-
 public class User {
     private String login;
     private String password;

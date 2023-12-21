@@ -3,7 +3,6 @@ package ord.example.homework.four.ex4;
 import java.util.Scanner;
 
 public class OneGramChat {
-
     public static final String ENTER_LOGIN = "Введите логин";
     public static final String ENTER_PASSWORD = "Введите пароль";
     public static final String SIGN_IN = "Войти";
